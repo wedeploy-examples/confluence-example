@@ -1,0 +1,11 @@
+{
+    "id": "cs",
+    "image": "atlassian/confluence-server",
+    "port": 8090,
+    "volumes": {
+        "config": "/var/atlassian/application-data/confluence"
+    },
+    "healthCheck": {
+        "url": "localhost:8090"
+    }
+}
