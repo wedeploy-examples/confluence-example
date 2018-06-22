@@ -1,6 +1,6 @@
 {
     "id": "cs",
-    "image": "atlassian/confluence-server",
+    "image": "atlassian/confluence-server:6.9",
     "port": 8090,
     "volumes": {
         "config": "/var/atlassian/application-data/confluence"
